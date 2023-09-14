@@ -11,6 +11,7 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>  
     </header>
     <main>
       <section class="card" id="html-section">
@@ -108,7 +109,7 @@
               <li>start: opens the file</li>
               <li>pwd: short for "print working directory" shows what's in the current directory</li>
               <li>cd: change directories - cd bootcamp.</li>
-              <li>cd . .: navagate backwards one directory at a time.</li>
+              <li>cd..: navagate backwards one directory at a time.</li>
               <li>git status: checks what branch we are currently on</li>
               <li>git checkout -b branch-name: creates a new branch and switches to it</li>
               <li>git add -A: the add command adds modifications in the current working branch to the staging area. the -A flag indicates that we want to add all changes.</li>
@@ -132,7 +133,40 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>Basic JavaScript features</li>
+            <ul>
+              <li>Variables: containers that store values. Start by declaring a variable with var container-name, followed by the equal sign, then the "name you give to the variable", followed by a semicolon which is used to separate statements on a single line.</li>
+              <li>Console log: the console.log method is used to output a message to the web console by adding an argument inside parenthesis.</li>
+              <li>Link .js files under the footer and above the closing element for body.</li>
+              <li>Use Chrome DevTools to view console.log output: right-click on the webpage and select Inspect. Select the console tab to view the output.</li>
+            </ul>
+          <li>Control Flow</li>
+            <ul>
+              <li>Control flow is the order in which a computer executes code in a script.</li>
+              <li>In JavaScript, code runs from the first statement at the top of the page, down to the last statement at the bottom of the page.</li>
+              <li>Control flow can be interrupted using conditional statements and loops to the control the order in which code is executed, or if it is even executed at all.</li>
+            </ul>
+          <li>Conditional logic</li>
+            <ul>
+              <li>An if statement is a way of introducing decision-making into the code. When using the if statement, code will only execute IF the statement meets a condition, or is true.</li>
+              <li>Using else if allows for more conditions.</li>
+            </ul>
+          <li>Arrays</li>
+            <ul>
+              <li>An array is a single variable that is used to hold a group of data. Arrays arwe typically used to hold data that is related in some way.</li>
+              <li>To create an array, declare the variable using var, give the variable a name, and assign the variable a group of values inside brackets where each is inside quotes and there's a comma separating the values, ending with a semicolon. However, if different types of data is stored in an array, only use quotes around strings.</li>
+            </ul>
+          <li>Using a for loop</li>
+            <ul>
+              <li>A for loop uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over. Developers must use another statement to interrupt the control flow by executing a block of code a specific number of times.</li>
+              <li>Using a for loop tells the computer to go through each value in the array and log them to the console until there are no values left.</li>
+              <li>A for loop contains the following 3 important statements:</li>
+                <ul>
+                  <li>The first statement determines the starting point for the loop.</li>
+                  <li>The second statement is the condition.</li>
+                  <li>The third statement is what allows the array to iterate over each item.</li>
+                </ul>
+            </ul>
         </ul>
       </section>
     </main>
@@ -140,5 +174,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
