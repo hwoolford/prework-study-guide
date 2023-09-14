@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -52,7 +53,48 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>There are 3 ways to style a webpage using CSS:</li>
+            <ul>
+              <li>Inline CSS</li>
+                <ul>
+                  <li>Used to style an element directly in the HTML file.
+                  <li>Inline styles apply to a specific HTML tag and styles a particular page element only.</li>
+                  </li>
+                  <li>Useful for quick and permanent changes but less flexible because each inline style must be edited individually whenever a design change is made.</li>
+                </ul>
+              <li>Internal CSS style sheet</li>
+                <ul>
+                  <li>Contains CSS rules for the webpage in the head section of the HTML file.</li>
+                  <li>The rules only apply to that page, and can be used to style multiple elements in the page code.A single change to the CSS rule applies to all tagged page elements.</li>                  
+                </ul>
+              <li>External CSS style sheet</li>
+                <ul>
+                  <li>Most common way to style a webpage. It's preferred in most cases because it allows developers to keep all their CSS rules in a separate file, which makes design changes easier.</li>
+                  <li>When using external style sheet, the file is linked using a link element placed in the HTML's head element.</li>
+                </ul>
+            </ul>
+          <li>Diagram of a CSS Rule:</li>
+            <ul>
+              <li>Selector: defines the element or attributes to which the rules, or declaratioins, will apply.</li>
+              <li>Declarations: contain the CSS property to apply and the value of that property.</li>
+                <ul>
+                  <li>For example: in the declaration color:blue; the CSS property is color and the value is blue.</li>
+                </ul>
+            </ul>
+          <li>Using CSS</li>
+            <ul>
+              <li>*selector: applies a rule to all elements visible on the page, such as margin and padding.</li>
+              <li>Link the CSS file to the HTML document by adding the code to the header before the title.</li>
+                <ul>
+                  <li>link element: creates the connection to the external file.</li>
+                  <li>rel attribute: specifies the relationship between the current document and the linked document resource.</li>
+                  <li>href attribute: specifies the URL of the external resource using a relative path.</li>
+                </ul>
+              <li>Class attribute selector: Used to add styles to certain elements, but not all elements. Class attributes allow the sharing of a CSS rule to any element chosen by assigning the rule to a class attribute with a class selector.</li>
+              <li>.card: the period before card designates this as a class selector. Any HTML element assigned to the class, card, will gain these properties.</li>
+              <li>margin: if top/bottom are same and widths are the same, then first entry is for top and bottom and second entry is for left/right.</li>
+              <li>Margins and padding: A margin indicates how much space is around the outside of an element. A padding indicates how much space we want around the conent inside an element.</li>
+            </ul>
         </ul>
       </section>
       <section class="card" id="git-section">
